@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Studio Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1200,
+    "rating": 4.5,
+    "category": "Studio"
+  },
+  {
+    "id": 2,
+    "title": "Luxury 2-Bedroom Flat",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2500,
+    "rating": 4.8,
+    "category": "2-Bedroom"
+  },
+  {
+    "id": 3,
+    "title": "Cozy 1-Bedroom Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1500,
+    "rating": 4.2,
+    "category": "1-Bedroom"
+  },
+  {
+    "id": 4,
+    "title": "Downtown Loft",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2000,
+    "rating": 4.7,
+    "category": "Loft"
+  },
+  {
+    "id": 5,
+    "title": "Spacious Penthouse",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 4000,
+    "rating": 5.0,
+    "category": "Penthouse"
+  },
+  {
+    "id": 6,
+    "title": "Budget 1-Bedroom",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 900,
+    "rating": 3.8,
+    "category": "1-Bedroom"
+  },
+  {
+    "id": 7,
+    "title": "Family 3-Bedroom Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2800,
+    "rating": 4.6,
+    "category": "3-Bedroom"
+  },
+  {
+    "id": 8,
+    "title": "Chic Studio in City Center",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1300,
+    "rating": 4.3,
+    "category": "Studio"
+  },
+  {
+    "id": 9,
+    "title": "Elegant 2-Bedroom Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2200,
+    "rating": 4.7,
+    "category": "2-Bedroom"
+  },
+  {
+    "id": 10,
+    "title": "Compact 1-Bedroom Flat",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1100,
+    "rating": 4.1,
+    "category": "1-Bedroom"
+  },
+  {
+    "id": 11,
+    "title": "Luxury Loft with View",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2700,
+    "rating": 4.9,
+    "category": "Loft"
+  },
+  {
+    "id": 12,
+    "title": "Affordable Studio Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 950,
+    "rating": 3.9,
+    "category": "Studio"
+  },
+  {
+    "id": 13,
+    "title": "Modern 2-Bedroom Flat",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2300,
+    "rating": 4.5,
+    "category": "2-Bedroom"
+  },
+  {
+    "id": 14,
+    "title": "Penthouse with Rooftop",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 4500,
+    "rating": 5.0,
+    "category": "Penthouse"
+  },
+  {
+    "id": 15,
+    "title": "Small 1-Bedroom Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1000,
+    "rating": 4.0,
+    "category": "1-Bedroom"
+  },
+  {
+    "id": 16,
+    "title": "Family-Friendly 3-Bedroom Flat",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2900,
+    "rating": 4.6,
+    "category": "3-Bedroom"
+  },
+  {
+    "id": 17,
+    "title": "Stylish Loft in Downtown",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2100,
+    "rating": 4.4,
+    "category": "Loft"
+  },
+  {
+    "id": 18,
+    "title": "Cozy Studio Apartment",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 1250,
+    "rating": 4.2,
+    "category": "Studio"
+  },
+  {
+    "id": 19,
+    "title": "Elegant 2-Bedroom Flat",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 2400,
+    "rating": 4.7,
+    "category": "2-Bedroom"
+  },
+  {
+    "id": 20,
+    "title": "Spacious Penthouse Suite",
+    "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    "price": 5000,
+    "rating": 4.9,
+    "category": "Penthouse"
+  }
+]
