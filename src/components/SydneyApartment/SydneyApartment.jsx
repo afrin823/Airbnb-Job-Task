@@ -11,7 +11,7 @@ const SydneyApartment = () => {
       .catch((err) => console.error(err));
   }, []);
 
-  return <HorizontalSlider title="Check out homes in Melbourne" data={apartments} />;
+  return <HorizontalSlider title="Popular homes in Sydney" data={apartments} />;
 };
 
 export default SydneyApartment;

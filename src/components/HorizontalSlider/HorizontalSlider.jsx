@@ -38,9 +38,12 @@ const HorizontalSlider = ({ title, data }) => {
           <div
             key={apartment.id}
             className="
-              flex-shrink-0
-              w-[80%] sm:w-[45%] md:w-[28%] lg:w-[14.28%]
-            "
+    flex-shrink-0
+    w-[48%]  /* Mobile: 2 cards per row */
+    sm:w-[45%]  /* Small screens */
+    md:w-[28%] 
+    lg:w-[14.28%]
+  "
           >
             <ApartmentCard
               apartment={apartment}
@@ -48,6 +51,7 @@ const HorizontalSlider = ({ title, data }) => {
               toggleLike={toggleLike}
             />
           </div>
+
         ))}
       </div>
     </div>
