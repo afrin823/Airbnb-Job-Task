@@ -1,12 +1,14 @@
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import PopularHomesKL from '../../components/PopularHomesKL/PopularHomesKL';
+import PopularHomes from '../../components/PopularHomes/PopularHomes';
+import BangkokApartment from '../../components/BangkokApartment/BangkokApartment';
 
 const Home = () => {
     return (
         <div>
             <Navbar />
-            <PopularHomesKL />
+            <PopularHomes />
+            <BangkokApartment />
             
             <Footer />
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import HorizontalSlider from "../HorizontalSlider/HorizontalSlider";
-const PopularHomesKL = () => {
+
+const PopularHomes = () => {
   const [apartments, setApartments] = useState([]);
 
   useEffect(() => {
@@ -13,4 +14,4 @@ const PopularHomesKL = () => {
   return <HorizontalSlider title="Popular homes in Kuala Lumpur" data={apartments} />;
 };
 
-export default PopularHomesKL;
+export default PopularHomes;
