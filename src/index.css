@@ -3,3 +3,5 @@
 div::-webkit-scrollbar {
   display: none;
 }
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
