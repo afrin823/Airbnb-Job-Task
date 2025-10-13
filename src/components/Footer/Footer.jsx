@@ -1,52 +1,30 @@
-import React from 'react';
+import FooterBottom from "./FooterBottom";
+import { footerContent, footerData } from "./footerData";
+import FooterLinkGroup from "./FooterLinkGroup";
+import FooterTabs from "./FooterTabs";
 
-const Footer = () => {
-    return (
-        <footer className="p-6 dark:bg-gray-100 dark:text-gray-800">
-            <div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-3">
-                <div className="flex flex-col space-y-4">
-                    <h2 className="font-medium">Getting started</h2>
-                    <div className="flex flex-col space-y-2 text-sm dark:text-gray-600">
-                        <a rel="noopener noreferrer" href="#">Installation</a>
-                        <a rel="noopener noreferrer" href="#">Release Notes</a>
-                        <a rel="noopener noreferrer" href="#">Upgrade Guide</a>
-                        <a rel="noopener noreferrer" href="#">Using with Preprocessors</a>
-                        <a rel="noopener noreferrer" href="#">Optimizing for Production</a>
-                        <a rel="noopener noreferrer" href="#">Browser Support</a>
-                        <a rel="noopener noreferrer" href="#">IntelliSense</a>
-                    </div>
-                </div>
-                <div className="flex flex-col space-y-4">
-                    <h2 className="font-medium">Core Concepts</h2>
-                    <div className="flex flex-col space-y-2 text-sm dark:text-gray-600">
-                        <a rel="noopener noreferrer" href="#">Utility-First</a>
-                        <a rel="noopener noreferrer" href="#">Responsive Design</a>
-                        <a rel="noopener noreferrer" href="#">Hover, Focus, &amp; Other States</a>
-                        <a rel="noopener noreferrer" href="#">Dark Mode</a>
-                        <a rel="noopener noreferrer" href="#">Adding Base Styles</a>
-                        <a rel="noopener noreferrer" href="#">Extracting Components</a>
-                        <a rel="noopener noreferrer" href="#">Adding New Utilities</a>
-                    </div>
-                </div>
-                <div className="flex flex-col space-y-4">
-                    <h2 className="font-medium">Customization</h2>
-                    <div className="flex flex-col space-y-2 text-sm dark:text-gray-600">
-                        <a rel="noopener noreferrer" href="#">Configuration</a>
-                        <a rel="noopener noreferrer" href="#">Theme Configuration</a>
-                        <a rel="noopener noreferrer" href="#">Breakpoints</a>
-                        <a rel="noopener noreferrer" href="#">Customizing Colors</a>
-                        <a rel="noopener noreferrer" href="#">Customizing Spacing</a>
-                        <a rel="noopener noreferrer" href="#">Configuring Variants</a>
-                        <a rel="noopener noreferrer" href="#">Plugins</a>
-                    </div>
-                </div>
-                
-            </div>
-            <div className="flex items-center justify-center px-6 pt-12 text-sm">
-                <span className="dark:text-gray-600">© Copyright 1986. All Rights Reserved.</span>
-            </div>
-        </footer>
-    );
-};
+export default function Footer() {
+  return (
+    <footer className="bg-white text-gray-700 border-t border-gray-200 w-full">
+      {/*  top section */}
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-10">
+        <h2 className="text-lg sm:text-xl font-semibold mb-4 text-center sm:text-left">
+          Inspiration for future getaways
+        </h2>
+        <FooterTabs footerContent={footerContent} />
+      </div>
 
-export default Footer;
+      <hr className="border-gray-200" />
+
+      {/* --- Middle Section --- */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+        <FooterLinkGroup title="Support" links={footerData.support} />
+        <FooterLinkGroup title="Hosting" links={footerData.hosting} />
+        <FooterLinkGroup title="Airbnb" links={footerData.airbnb} />
+      </div>
+
+      {/* --- Bottom Section --- */}
+      <FooterBottom />
+    </footer>
+  );
+}
